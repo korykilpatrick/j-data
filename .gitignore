@@ -1,0 +1,10 @@
+
+.DS_STORE
+__pycache__/
+db/__pycache__/
+scraper/__pycache__/
+*.py[cod]
+
+.env
+config.json
+settings.json
