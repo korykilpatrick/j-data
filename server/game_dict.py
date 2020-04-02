@@ -6,7 +6,7 @@ from server.daily_doubles import handle_daily_doubles
 def build_clue_dict(clue, game_round=None):
   clue_dict = {}
   for key, val in clue._asdict().items():
-    if key in ('value', 'question', 'answer', 'is_daily_double'):
+    if key in ('value', 'question', 'answer', 'is_daily_double', 'invalid'):
       clue_dict[key] = val
 
   if game_round and clue.round in ('J', 'DJ') and clue.round != game_round:
@@ -14,7 +14,7 @@ def build_clue_dict(clue, game_round=None):
 
   return clue_dict
 
-def build_category_dict(clues, game_round):
+def build_category_dict(clues, game_round=None):
   category_dict = {
     'season': clues[0].season,
     'show_number': clues[0].show_number,
@@ -28,8 +28,10 @@ def build_category_dict(clues, game_round):
 
   return category_dict
 
-def build_game_dict(clues):
-  # convert list of clues from db into a dictionary to be sent to client
+def build_random_game_dict(clues):
+  # Convert list of clues from random categories into a dictionary to be sent to client
+  # clues => list of namedtuples
+
   game_dict = defaultdict(lambda : defaultdict(lambda : {}))
 
   game_round = 'J'
@@ -45,3 +47,31 @@ def build_game_dict(clues):
   game_dict = handle_daily_doubles(game_dict)
 
   return game_dict
+
+def build_official_game_dict(clues):
+  # clues => list of namedtuples
+
+  game_dict = defaultdict(lambda : defaultdict(lambda : {}))
+  categories_lookup = defaultdict(list)
+
+  for clue in clues:
+    categories_lookup[clue.category_id].append(clue)
+
+  for category_id, clues in categories_lookup.items():
+    game_dict[clues[0].round][category_id] = build_category_dict(clues)
+
+  return game_dict
+
+
+
+
+
+
+
+
+
+
+
+
+
+

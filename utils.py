@@ -1,5 +1,7 @@
 from termcolor import cprint
 
+from server.game_dict import build_random_game_dict, build_official_game_dict
+
 def write_to_file(msg, err=False, warn=False, out=False):
   if err:
     color = 'red'
@@ -35,6 +37,21 @@ def print_game_dict(game_dict):
           cprint(f"{clue_data['value']}", 'yellow' if not clue_data['is_daily_double'] else 'green')
           cprint(f"{clue_data['question']}", 'cyan' if not clue_data['is_daily_double'] else 'green')
           cprint(f"{clue_data['answer']}", 'blue' if not clue_data['is_daily_double'] else 'green', attrs=['bold'])
+
+
+def print_random_game():
+  dal = DAL()
+  clues = dal.callproc('get_random_game_clues')
+  gd = build_random_game_dict(clues)
+  print_game_dict(gd)
+  print_daily_doubles(gd)
+
+def print_official_game():
+  dal = DAL()
+  clues = dal.callproc('get_official_game_clues')
+  gd = build_official_game_dict(clues)
+  print_game_dict(gd)
+  print_daily_doubles(gd)
 
 
 
