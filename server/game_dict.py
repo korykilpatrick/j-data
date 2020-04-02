@@ -5,11 +5,15 @@ from server.daily_doubles import handle_daily_doubles
 
 def build_clue_dict(clue, game_round=None):
   clue_dict = {}
-  for key, val in clue._asdict().items():
-    if key in ('value', 'question', 'answer', 'is_daily_double', 'invalid'):
-      clue_dict[key] = val
+
+  clue_dict['value'] = clue.value
+  clue_dict['answer'] = clue.answer
+  clue_dict['question'] = clue.question
+  clue_dict['is_daily_double'] = clue.is_daily_double
+  clue_dict['invalid'] = clue.invalid
 
   if game_round and clue.round in ('J', 'DJ') and clue.round != game_round:
+    # Adjust clue value if the round in the db is different than the round in the round the clue will appear in in a random game.
     clue_dict['value'] = int(clue_dict['value'] / 2) if game_round == 'J' else clue_dict['value'] * 2
 
   return clue_dict
