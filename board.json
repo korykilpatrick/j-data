@@ -1,0 +1,539 @@
+{
+  "DJ": {
+    "33204": {
+      "air_date": "Fri, 06 Dec 2002 00:00:00 GMT", 
+      "clues": {
+        "150121": {
+          "answer": "the sun", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In 1543 Copernicus added that while it's the center of the universe, it's not the true center of all space", 
+          "value": 400
+        }, 
+        "150127": {
+          "answer": "Norway", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In 1397 the Union of Kalmar united Denmark, Sweden & this country", 
+          "value": 800
+        }, 
+        "150133": {
+          "answer": "tobacco", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "England's James I denounced this product in 1604; the pope banned it in Seville churches in 1642", 
+          "value": 1200
+        }, 
+        "150138": {
+          "answer": "Alaska", 
+          "invalid": 0, 
+          "is_daily_double": 1, 
+          "question": "In 1764 Catherine II of Russia ordered further exploration of this future U.S. state", 
+          "value": 1600
+        }, 
+        "150143": {
+          "answer": "Sir Walter Scott", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In 1827 this Edinburgher came out & said, \"That hugely popular 'Waverley' novel, I wrote it\"", 
+          "value": 2000
+        }
+      }, 
+      "season": "19", 
+      "show_number": 4205, 
+      "title": "MILLENNIUM MOMENTS"
+    }, 
+    "38074": {
+      "air_date": "Tue, 06 Jul 2004 00:00:00 GMT", 
+      "clues": {
+        "172497": {
+          "answer": "Pete Rose", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In 2004 he published \"My Prison Without Bars\"", 
+          "value": 400
+        }, 
+        "172503": {
+          "answer": "Lou Gehrig", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "With the Yankees from 1923 to 1939, his No. 4 was the first number retired in either league", 
+          "value": 800
+        }, 
+        "172509": {
+          "answer": "Reggie Jackson", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Baseball's \"Mr. October\", he generated headlines for his cantankerous personality & his athletic prowess", 
+          "value": 1200
+        }, 
+        "172515": {
+          "answer": "\"Goose\"", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Famous nickname of Leon Goslin, who played in all 19 World Series games with the Washington Senators", 
+          "value": 1600
+        }, 
+        "172521": {
+          "answer": "Tug McGraw", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Sadly, this lefty pitcher who coined the Mets' battle cry \"You gotta believe\" died in 2004", 
+          "value": 2000
+        }
+      }, 
+      "season": "20", 
+      "show_number": 4582, 
+      "title": "BALLPARK FIGURES"
+    }, 
+    "63189": {
+      "air_date": "Thu, 03 Jan 2013 00:00:00 GMT", 
+      "clues": {
+        "288228": {
+          "answer": "France", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "(Kelly of the Clue Crew reports from the Royal Palace in Phnom Penh.) The Royal Palace grounds feature a statue of King Norodom, who in the late 1800s was compelled to first put his country under the control of this European power; of course, it was sculpted in that country", 
+          "value": 400
+        }, 
+        "288234": {
+          "answer": "Khmer", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "(Kelly of the Clue Crew reports from Cambodia.) Not to be confused with karma, krama is a popular accessory sold in cambodia; the word means \"scarf\" in this national language of Cambodia", 
+          "value": 800
+        }, 
+        "288240": {
+          "answer": "a floating village", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "The often watery landscape has led resourceful Cambodians to create this eight-letter type of village", 
+          "value": 1200
+        }, 
+        "288246": {
+          "answer": "monks", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "(Jimmy of the Clue Crew reports from the Silver Pagoda in Phnom Penh, Cambodia.)  Until the 1930s, the Silver Pagoda was used as a place where these people lived & studied", 
+          "value": 1600
+        }, 
+        "288252": {
+          "answer": "rickshaw", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "(Jimmy of the Clue Crew reports from Phnom Penh, Cambodia.)  Phnom Penh's notorious gridlock is circumvented by the nimble tuk-tuk, a motorized taxi that's also known as an auto this, a similar Asian conveyance", 
+          "value": 2000
+        }
+      }, 
+      "season": "29", 
+      "show_number": 6514, 
+      "title": "CAMBODIAN HISTORY & CULTURE"
+    }, 
+    "64928": {
+      "air_date": "Wed, 10 Jul 2013 00:00:00 GMT", 
+      "clues": {
+        "296304": {
+          "answer": "St. Patrick", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "The Union Jack superimposes the crosses of St. George, St. Andrew & this patron saint of Ireland", 
+          "value": 400
+        }, 
+        "296309": {
+          "answer": "muslin", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "It's all over the map--dotted Swiss is a type of this cotton fabric named for Mosul, Iraq", 
+          "value": 800
+        }, 
+        "296315": {
+          "answer": "Vassar", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "This Poughkeepsie college was founded in 1861, but the Civil War delayed its opening until 1865", 
+          "value": 1200
+        }, 
+        "296321": {
+          "answer": "a Claddagh ring", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "A traditional token of love, this Irish ring depicts 2 hands clasping a crowned heart", 
+          "value": 1600
+        }, 
+        "296327": {
+          "answer": "Nellie Bly", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In 1887 she got herself committed to an insane asylum to write an expose for the New York World", 
+          "value": 2000
+        }
+      }, 
+      "season": "29", 
+      "show_number": 6648, 
+      "title": "THIS & THAT"
+    }, 
+    "66449": {
+      "air_date": "Fri, 31 Jan 2014 00:00:00 GMT", 
+      "clues": {
+        "303178": {
+          "answer": "Yellowstone", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Old Faithful", 
+          "value": 400
+        }, 
+        "303184": {
+          "answer": "Yosemite", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Half Dome", 
+          "value": 800
+        }, 
+        "303190": {
+          "answer": "the Grand Canyon", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Bright Angel Trail,East Rim Drive", 
+          "value": 1200
+        }, 
+        "303196": {
+          "answer": "Everglades", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Deer Key,Crocodile Point", 
+          "value": 1600
+        }, 
+        "303202": {
+          "answer": "Zion", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In Utah: North Guardian Angel,the West Temple,the Altar of Sacrifice", 
+          "value": 2000
+        }
+      }, 
+      "season": "30", 
+      "show_number": 6765, 
+      "title": "IN THE NATIONAL PARK"
+    }, 
+    "66745": {
+      "air_date": "Wed, 05 Mar 2014 00:00:00 GMT", 
+      "clues": {
+        "304551": {
+          "answer": "Diana & Charles", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "On July 29, 1981 Johnny said these 2 had \"a fairy-tale romance. Too bad they had to spoil it & get married\"", 
+          "value": 400
+        }, 
+        "304557": {
+          "answer": "Joan Rivers", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Can we talk? No! After this \"Tonight Show\" fixture got her own gig on Fox in 1986, Johnny never spoke to her again", 
+          "value": 800
+        }, 
+        "304563": {
+          "answer": "Joan Crawford", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Johnny's \"Tonight Show\" debuted on Oct. 1, 1962; guests included Groucho & this \"Mildred Pierce\" actress", 
+          "value": 1200
+        }, 
+        "304569": {
+          "answer": "Eddie Murphy", 
+          "invalid": 0, 
+          "is_daily_double": 1, 
+          "question": "On Carson in 1982 he said, \"I'm from a predominantly black family, & I have yet to run into a relative named Buckwheat\"", 
+          "value": 1600
+        }, 
+        "304575": {
+          "answer": "G.E.", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In his last monologue, Johnny said this huge corp. \"named me employee of the month...that was a dream come true\"", 
+          "value": 2000
+        }
+      }, 
+      "season": "30", 
+      "show_number": 6788, 
+      "title": "CARSON, DAILY"
+    }
+  }, 
+  "FJ": {
+    "13123": {
+      "air_date": "Wed, 12 Apr 1995 00:00:00 GMT", 
+      "clues": {
+        "58201": {
+          "answer": "Gerald Ford", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "He said, \"If you have not chosen me by secret ballot, neither have I gained office by any secret promises\"", 
+          "value": 5000
+        }
+      }, 
+      "season": "11", 
+      "show_number": 2453, 
+      "title": "20th CENTURY PRESIDENTS"
+    }
+  }, 
+  "J": {
+    "5688": {
+      "air_date": "Wed, 14 Dec 1988 00:00:00 GMT", 
+      "clues": {
+        "24318": {
+          "answer": "rajas (maharajas)", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "If you visit India, you can stay in hotels that were formerly these rulers' palaces", 
+          "value": 200
+        }, 
+        "24324": {
+          "answer": "Tokyo", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Because of the high cost of living in this Asian capital, Uganda had to close its embassy there", 
+          "value": 400
+        }, 
+        "24330": {
+          "answer": "Vietnam", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "The dong is the basic currency of this Southeast Asian country", 
+          "value": 600
+        }, 
+        "24336": {
+          "answer": "Sri Lanka", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "There's a long-standing conflict between the Tamils & Sinhalese on this island in the Indian Ocean", 
+          "value": 800
+        }, 
+        "24341": {
+          "answer": "Thailand", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Bhumibol Adulyadej, King Rama IX, is the reigning monarch of this country", 
+          "value": 1000
+        }
+      }, 
+      "season": "5", 
+      "show_number": 988, 
+      "title": "ASIA"
+    }, 
+    "12800": {
+      "air_date": "Wed, 16 Nov 1994 00:00:00 GMT", 
+      "clues": {
+        "56690": {
+          "answer": "Tom Hanks", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "\"Bosom Buddies\" star who went on to make a \"Big\" splash in \"Forrest Gump\"", 
+          "value": 200
+        }, 
+        "56696": {
+          "answer": "Billy Crystal", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "He looked \"mahvelous\" on \"Soap\" & \"Saturday Night Live\" before becoming a \"City Slicker\"", 
+          "value": 400
+        }, 
+        "56702": {
+          "answer": "John Travolta", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In 1978 \"Grease\" was the word for this Sweathog; in 1994 he was seen in \"Pulp Fiction\"", 
+          "value": 600
+        }, 
+        "56708": {
+          "answer": "Robin Williams", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "A guest part on \"Happy Days\" led to his own series; later, he gave a genie a voice", 
+          "value": 800
+        }, 
+        "56714": {
+          "answer": "Michael J. Fox", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In 1994 this former \"Family Ties\" star got \"Greedy\" with Olivia d'Abo & Kirk Douglas", 
+          "value": 1000
+        }
+      }, 
+      "season": "11", 
+      "show_number": 2348, 
+      "title": "TV TO MOVIE STARS"
+    }, 
+    "20334": {
+      "air_date": "Fri, 10 Jul 1998 00:00:00 GMT", 
+      "clues": {
+        "91227": {
+          "answer": "Itzhak Perlman", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "20th century violin virtuosi include Isaac Stern & this Israel native whose name is a form of Isaac", 
+          "value": 200
+        }, 
+        "91233": {
+          "answer": "John Williams", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Acclaimed guitarist who shares his name with the composer of \"Star Wars\"", 
+          "value": 400
+        }, 
+        "91239": {
+          "answer": "David Helfgott", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "As seen in \"Shine\", he returned to the concert stage under the guidance of his astrologer wife", 
+          "value": 600
+        }, 
+        "91245": {
+          "answer": "Albert Schweitzer", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "He was a Bach-playing organist before becoming famous for his missionary work in Gabon", 
+          "value": 800
+        }, 
+        "91251": {
+          "answer": "Vladimir Horowitz", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "This Russian-born master who became a U.S. citizen adapted \"The Stars and Stripes Forever\" for piano", 
+          "value": 1000
+        }
+      }, 
+      "season": "14", 
+      "show_number": 3210, 
+      "title": "CLASSICAL MUSICIANS"
+    }, 
+    "47964": {
+      "air_date": "Tue, 27 Nov 2007 00:00:00 GMT", 
+      "clues": {
+        "218199": {
+          "answer": "tapestries", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "The Gobelins factory of France was famous for these wall hangings & began manufacturing them around 1600", 
+          "value": 200
+        }, 
+        "218205": {
+          "answer": "furniture", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Beginning around 1790 in NYC, Duncan Phyfe was a leader in the artful manufacturing of this", 
+          "value": 400
+        }, 
+        "218211": {
+          "answer": "the Globe", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Shakespeare was part owner of Blackfriars Theatre in London & this other one where many of his plays premiered", 
+          "value": 600
+        }, 
+        "218217": {
+          "answer": "The Blue Boy", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Gainsborough's portrait of Jonathan Buttall, known as this, was an homage to Anthony van Dyck", 
+          "value": 800
+        }, 
+        "218223": {
+          "answer": "Phidias", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Beginning around 447 B.C., this sculptor supervised the making of the sculptures on the Parthenon", 
+          "value": 1000
+        }
+      }, 
+      "season": "24", 
+      "show_number": 5342, 
+      "title": "THE ARTS"
+    }, 
+    "73159": {
+      "air_date": "Mon, 18 Apr 2016 00:00:00 GMT", 
+      "clues": {
+        "333690": {
+          "answer": "a dramedy", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "7-letter term for a TV show like \"Desperate Housewives\" that mixes seriousness with humor", 
+          "value": 200
+        }, 
+        "333696": {
+          "answer": "cockapoo", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "It's the crossbred pooch seen here", 
+          "value": 400
+        }, 
+        "333702": {
+          "answer": "the cronut", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "In 2013 chef Dominique Ansel launched this hybrid pastry, & a craze was born", 
+          "value": 600
+        }, 
+        "333708": {
+          "answer": "a turducken", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "There are 3 birds jammed into this portmanteau word for the poultry dish equivalent of Russian nesting dolls", 
+          "value": 800
+        }, 
+        "333714": {
+          "answer": "a parsec", 
+          "invalid": 0, 
+          "is_daily_double": 1, 
+          "question": "This unit of distance is equal to 3.26 light years", 
+          "value": 1000
+        }
+      }, 
+      "season": "32", 
+      "show_number": 7281, 
+      "title": "PORTMANTEAU WORDS"
+    }, 
+    "81033": {
+      "air_date": "Tue, 18 Dec 2018 00:00:00 GMT", 
+      "clues": {
+        "369552": {
+          "answer": "the Great Lakes", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "This term for a quintet of bodies of water in North America is also used for a group in Africa", 
+          "value": 200
+        }, 
+        "369558": {
+          "answer": "Galilee", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Around 1633 Rembrandt painted the Biblical scene \"Storm on the Sea of\" this", 
+          "value": 400
+        }, 
+        "369564": {
+          "answer": "the Caspian Sea", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "This misleadingly named body of water is landlocked by Russia, Kazakhstan & 3 other nations", 
+          "value": 600
+        }, 
+        "369570": {
+          "answer": "the Adriatic Sea", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "Italy is surrounded by seas of the Mediterranean, including the Tyrrhenian Sea, the Ionian Sea & this one", 
+          "value": 800
+        }, 
+        "369576": {
+          "answer": "Antarctica and South America", 
+          "invalid": 0, 
+          "is_daily_double": 0, 
+          "question": "The Southern or Antarctic Ocean is narrowest at the 600-mile wide Drake Passage between these 2 continents", 
+          "value": 1000
+        }
+      }, 
+      "season": "35", 
+      "show_number": 7887, 
+      "title": "BODIES OF WATER"
+    }
+  }
+}
