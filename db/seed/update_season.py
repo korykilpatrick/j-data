@@ -7,7 +7,9 @@ from db.seed.seed_show import save_show_data
 from scraper.season import get_show_urls
 
 dal = DAL()
-SEASON = int(dal.execute('select * from code_values where value_code=%s', ('CurrentSeason',), one_or_none=True).value)
+
+# SEASON = int(dal.execute('select * from code_values where value_code=%s', ('CurrentSeason',), one_or_none=True).value)
+SEASON = 36
 
 """ Run this function to get new shows from the current season into the db. Either put this script on a cronjob to run M-F, or allow it to be invoked from the website or something.
 """
