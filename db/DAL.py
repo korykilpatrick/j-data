@@ -5,7 +5,7 @@ import re
 import json
 import MySQLdb
 
-from TechnousDB.exceptions import CallProcError, DBConnectionError, DatabaseError, SQLError
+from db.exceptions import CallProcError, DBConnectionError, DatabaseError, SQLError
 
 ERROR_MSG = 'ErrorMsg'
 

@@ -3,7 +3,7 @@ from termcolor import cprint
 
 sys.path.insert(0, os.getcwd())
 
-from TechnousDB.DAL import DAL
+from db import DAL
 
 dal = DAL()
 
