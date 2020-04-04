@@ -1,11 +1,11 @@
-# from flask import Flask
-# from flask_cors import CORS
+from flask import Flask
+from flask_cors import CORS
 
-# from db.DAL import DAL
+from db import DAL
 
-# app = Flask(__name__)
-# CORS(app)
+app = Flask(__name__)
+CORS(app)
 
-# dal = DAL()
+dal = DAL()
 
-# from server.routes import game, user, auth
+from server.routes import game, user, auth
