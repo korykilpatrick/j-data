@@ -6,7 +6,14 @@ import db.data_models.jeopardy as jdm
 
 @app.route('/')
 def hello_world():
-  return 'Hello World'
+  api_info = {
+    '/game/og': 'get a random official game',
+    '/game/random': 'get a random game',
+    '/game/category': 'get a random category',
+    '/game/clue/<round>': 'get a random clue by round (J, DJ, FJ, TB)'
+  }
+
+  return api_info
 
 @app.route('/game/og', methods=['GET'])
 def get_official_game():  
