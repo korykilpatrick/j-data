@@ -1,8 +1,8 @@
 from flask import jsonify
 
-import db.data_models.jeopardy as jdm
 from server import app, dal
 from server.game_dict import build_random_game_dict, build_official_game_dict, build_category_dict
+import db.data_models.jeopardy as jdm
 
 @app.route('/')
 def hello_world():

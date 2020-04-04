@@ -8,4 +8,4 @@ CORS(app)
 
 # dal = DAL()
 
-import server.routes
+from server.routes import game, user, auth
