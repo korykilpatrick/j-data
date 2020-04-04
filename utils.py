@@ -1,7 +1,5 @@
 from termcolor import cprint
 
-from server.board import build_random_board, build_official_board
-
 def write_to_file(msg, err=False, warn=False, out=False):
   if err:
     color = 'red'
@@ -39,19 +37,19 @@ def print_board(board):
           cprint(f"{clue_data['answer']}", 'blue' if not clue_data['is_daily_double'] else 'green', attrs=['bold'])
 
 
-def print_random_game():
-  dal = DAL()
-  clues = dal.callproc('get_random_board')
-  board = build_random_board(clues)
-  print_board(board)
-  print_daily_doubles(board)
+# def print_random_game():
+#   dal = DAL()
+#   clues = dal.callproc('get_random_board')
+#   board = build_random_board(clues)
+#   print_board(board)
+#   print_daily_doubles(board)
 
-def print_official_game():
-  dal = DAL()
-  clues = dal.callproc('get_official_board')
-  board = build_official_board(clues)
-  print_board(board)
-  print_daily_doubles(board)
+# def print_official_game():
+#   dal = DAL()
+#   clues = dal.callproc('get_official_board')
+#   board = build_official_board(clues)
+#   print_board(board)
+#   print_daily_doubles(board)
 
 
 
