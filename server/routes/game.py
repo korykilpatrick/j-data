@@ -12,18 +12,15 @@ from server.build import build_random_board, build_official_board, build_categor
 def hello_world():
   return {
     '/clue': 'get a random clue',
-    '/clue/<round>': 'get a random clue by round (J, DJ, FJ, TB)',
     '/category': 'get a random category',
     '/board/random': 'get a random board',
     '/board/official': 'get a random official game board',
   }
 
-@app.route('/clue')
-@app.route('/clue/<game_round>', methods=['GET'])
+@app.route('/clue', methods=['GET'])
 def get_random_clue(game_round=None):
   params = request.args.to_dict()
-  if not game_round:
-    game_round = random.choice(['J', 'DJ', 'FJ', 'TB'])
+  game_round = params.get('round', None) or random.choice(['J', 'DJ', 'FJ', 'TB'])
 
   clue = dal.callproc('get_random_clue', (game_round, params.get('startDate', '1900-01-01'), params.get('endDate', date.today())))
   return build_category(clue)
