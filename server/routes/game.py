@@ -1,5 +1,8 @@
-from flask import jsonify
+from flask import jsonify, request
+from datetime import date
+import requests
 import random
+
 
 from db.seed.update_season import update_season
 from server import app, dal
@@ -18,27 +21,30 @@ def hello_world():
 @app.route('/clue')
 @app.route('/clue/<game_round>', methods=['GET'])
 def get_random_clue(game_round=None):
+  params = request.args.to_dict()
   if not game_round:
     game_round = random.choice(['J', 'DJ', 'FJ', 'TB'])
 
-  clue = dal.callproc('get_random_clue', (game_round, ), one_or_none=True)
-  return build_category([clue])
+  clue = dal.callproc('get_random_clue', (game_round, params.get('startDate', '1900-01-01'), params.get('endDate', date.today())))
+  return build_category(clue)
 
 @app.route('/category')
 def get_random_category():
-  clues = dal.callproc('get_random_category')
+  params = request.args.to_dict()
+  clues = dal.callproc('get_random_category', (params.get('startDate', '1900-01-01'), params.get('endDate', date.today())))
   return build_category(clues)
 
 @app.route('/board')
 @app.route('/board/official', methods=['GET'])
 def get_official_board():  
-  # Next step let them pass optional parameters like show number, air_date, season
-  clues = dal.callproc('get_official_board')
+  params = request.args.to_dict()
+  clues = dal.callproc('get_official_board', (params.get('startDate', '1900-01-01'), params.get('endDate', date.today())))
   return build_official_board(clues)
 
 @app.route('/board/random')
 def get_random_board():
-  clues = dal.callproc('get_random_board')
+  params = request.args.to_dict()
+  clues = dal.callproc('get_random_board', (params.get('startDate', '1900-01-01'), params.get('endDate', date.today())))
   return build_random_board(clues)
 
 @app.route('/update/season')
