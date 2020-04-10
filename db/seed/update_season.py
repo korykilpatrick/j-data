@@ -4,6 +4,7 @@ sys.path.insert(0, os.getcwd())
 
 from db import DAL
 from db.seed.seed_show import save_show_data
+from db.seed.fill_missing_data import fill_missing_data
 from scraper.season import get_show_urls
 
 dal = DAL()
@@ -22,6 +23,8 @@ def update_season(season=SEASON):
     if int(url.split('=')[-1]) not in saved_archive_ids:
       count += 1
       save_show_data(url, season)
+
+  fill_missing_data()
 
   return count
 
