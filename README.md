@@ -2,4 +2,4 @@
 
 Backend for https://playjeopardy.herokuapp.com/
 
-Built to entertain friends and while the social world was on hiatus
+Built to play with friends over video chat
